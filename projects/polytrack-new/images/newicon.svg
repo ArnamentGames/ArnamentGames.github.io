@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="200" height="200" viewBox="0 0 52.916666 52.916666" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs id="defs2">
+    <path id="path-0" d="M 21.399531507746644 49.042268373051186 L 60.07227607054932 38.45139226871518" style="fill: none;"/>
+    <path id="path-1" d="M 21.47982993741924 48.7612238691971 L 59.83682598626056 37.72555182162544" style="fill: none;"/>
+    <bx:export>
+      <bx:file format="svg"/>
+    </bx:export>
+  </defs>
+  <g id="layer1">
+    <g aria-label="PolyTrack" id="text382" style="font-size:59.2131px;font-family:Impact;-inkscape-font-specification:Impact;fill:#28346a;stroke:#212b58;stroke-width:1.32292">
+      <g id="g5117">
+        <rect style="fill:#28346a;fill-opacity:1;stroke:none;stroke-width:5.13017" id="rect302" width="52.916668" height="52.916668" x="0" y="0"/>
+        <path id="path4993" style="font-family:'FORCED SQUARE';-inkscape-font-specification:'FORCED SQUARE';fill:#b3c1ff;fill-opacity:1;stroke:#112052;stroke-width:0.939478;stroke-dasharray:none;stroke-opacity:1" d="m 18.136096,15.178219 -3.97364,23.30498 h 4.087232 l 1.595482,-9.357691 h 16.666846 l 2.378159,-13.947289 z m 3.274425,4.768092 h 12.420656 l -0.782676,4.589598 H 20.627846 Z"/>
+      </g>
+    </g>
+  </g>
+  <rect x="20.075" y="37.299" width="31.396" height="6.625" style="paint-order: fill; fill: rgb(255, 0, 0); stroke-width: 0.5px; stroke: rgb(114, 30, 30); transform-box: fill-box; transform-origin: 50% 50%;" rx="1.646" ry="1.646" transform="matrix(0.965926, -0.258819, 0.258819, 0.965926, -0.642388, 1.967321)"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Bahnschrift; font-size: 5px; font-weight: 600; white-space: pre;" transform="matrix(1, 0, 0, 1, 7.869246, -2.609699)"><textPath href="#path-1">NEW!!</textPath></text>
+</svg>
