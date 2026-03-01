@@ -21,6 +21,129 @@
       <span id="subtitle">...</span><br />
 Hi Samuel
     </h1>
+    <!-- ScoolBase Banner - Place right after buttons-container closing div -->
+<div class="scoolbase-banner" style="margin-top: 40px; width: 100%; display: flex; justify-content: center; animation: scoolbaseFadeInUp 1s ease forwards;">
+    <div style="background: #0e0e12; border: 2px solid #7b52c8; padding: 28px 30px; max-width: 900px; width: 90%; text-align: center; box-shadow: 8px 8px 0 #1c1a28; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <!-- Badge with Tech Styling -->
+        <span style="display: inline-block; background: #1c1a28; color: #9b76e0; font-size: 0.85rem; font-weight: 600; padding: 6px 16px; border: 1px solid #2a2640; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 2px; font-family: 'DM Mono', monospace;">
+            FROM THE CREATORS OF ARNAMENT & ORNAMENT GAMES
+        </span>
+        
+        <!-- Title -->
+        <h2 style="font-family: 'Bebas Neue', 'Impact', sans-serif; font-size: 3.2rem; font-weight: 800; margin: 8px 0; color: #f0eeff; letter-spacing: 3px; line-height: 1;">
+            Scool<span style="color: #7b52c8;">Base</span>
+        </h2>
+        
+        <!-- Description -->
+        <p style="font-family: 'DM Mono', monospace; font-size: 1.1rem; color: #7a7690; margin-bottom: 20px; border-bottom: 1px solid #2a2640; padding-bottom: 18px; max-width: 700px; margin-left: auto; margin-right: auto; letter-spacing: 0.5px;">
+            A State-of-the-art VPN, Game Library, and Teacher Monitor Disabler
+        </p>
+        
+        <!-- Features with Tech Styling -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 20px 0 25px;">
+            
+            <!-- Feature 1: VPN -->
+            <span style="display: inline-block; background: #0a0a0e; padding: 8px 16px; border: 1px solid #2a2640; font-size: 0.95rem; color: #b99ef0; font-family: 'DM Mono', monospace; letter-spacing: 0.5px;">
+                ▸ MILITARY-GRADE VPN
+            </span>
+            
+            <!-- Feature 2: Games -->
+            <span style="display: inline-block; background: #0a0a0e; padding: 8px 16px; border: 1px solid #2a2640; font-size: 0.95rem; color: #b99ef0; font-family: 'DM Mono', monospace; letter-spacing: 0.5px;">
+                ▸ 100+ STEAM GAMES
+            </span>
+            
+            <!-- Feature 3: Game List -->
+            <span style="display: inline-block; background: #0a0a0e; padding: 8px 16px; border: 1px solid #2a2640; font-size: 0.95rem; color: #b99ef0; font-family: 'DM Mono', monospace; letter-spacing: 0.5px; max-width: 100%;">
+                ▸ HOLLOW KNIGHT • SILKSONG • BALATRO • GEOMETRY DASH • CULT OF THE LAMB • MANY MORE
+            </span>
+            
+            <!-- Feature 4: Monitor Disabler -->
+            <span style="display: inline-block; background: #0a0a0e; padding: 8px 16px; border: 1px solid #2a2640; font-size: 0.95rem; color: #b99ef0; font-family: 'DM Mono', monospace; letter-spacing: 0.5px;">
+                ▸ DISABLE TEACHER MONITORING APPS
+            </span>
+        </div>
+        
+        <!-- CTA Button -->
+        <a href="https://scoolbase.share.zrok.io" target="_blank" style="display: inline-block; background: #7b52c8; color: white; font-size: 1.2rem; font-weight: 600; padding: 14px 40px; border: 1px solid #5e3aab; text-decoration: none; text-transform: uppercase; letter-spacing: 2.5px; transition: all 0.2s ease; box-shadow: 5px 5px 0 #2d1b52; margin-top: 8px; font-family: 'DM Mono', monospace;">
+            ACCESS NOW →
+        </a>
+    </div>
+</div>
+
+<!-- Mobile Responsive Styles (inline) -->
+<style>
+    @media (max-width: 768px) {
+        .scoolbase-banner > div {
+            padding: 22px 20px !important;
+        }
+        .scoolbase-banner h2 {
+            font-size: 2.6rem !important;
+        }
+        .scoolbase-banner p {
+            font-size: 0.95rem !important;
+            padding-bottom: 16px !important;
+        }
+        .scoolbase-banner span {
+            font-size: 0.85rem !important;
+            padding: 6px 12px !important;
+        }
+        .scoolbase-banner a {
+            font-size: 1rem !important;
+            padding: 12px 30px !important;
+        }
+    }
+    
+    /* Small phones */
+    @media (max-width: 480px) {
+        .scoolbase-banner > div {
+            padding: 18px 15px !important;
+        }
+        .scoolbase-banner h2 {
+            font-size: 2.2rem !important;
+            letter-spacing: 2px !important;
+        }
+        .scoolbase-banner p {
+            font-size: 0.85rem !important;
+            margin-bottom: 16px !important;
+        }
+        .scoolbase-banner span {
+            font-size: 0.75rem !important;
+            padding: 5px 10px !important;
+            gap: 4px !important;
+        }
+        .scoolbase-banner a {
+            font-size: 0.9rem !important;
+            padding: 10px 24px !important;
+            box-shadow: 4px 4px 0 #2d1b52 !important;
+        }
+    }
+    
+    @keyframes scoolbaseFadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(25px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    /* Hover effects (desktop only) */
+    @media (min-width: 769px) {
+        .scoolbase-banner > div:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 11px 11px 0 #2d1b52 !important;
+        }
+        
+        .scoolbase-banner a:hover {
+            background: #9b76e0 !important;
+            transform: translate(-2px, -2px);
+            box-shadow: 7px 7px 0 #2d1b52 !important;
+        }
+    }
+</style>
     <p class="text-center"><a href="/projects.html"><button id="gs">Get Started</button></a></p>
     <p id="intro" class="text-center">
       Welcome to arnamentgames.github.io, your best option for unblocked games on the internet.<br />
