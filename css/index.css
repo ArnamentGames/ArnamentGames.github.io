@@ -2,7 +2,9 @@ body {
   background-color: #1c1c1c;
   color: #c9c9c9;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Ensures no extra gap at the very top */
 }
+
 #title {
   font-size: 48px;
   color: #c9c9c9;
@@ -10,8 +12,9 @@ body {
   margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 20px;
 }
+
 #subtitle {
   font-size: 24px;
   color: #c9c9c9;
@@ -20,25 +23,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 #intro {
-  padding-top: 20%;
+  padding-top: 20px; /* Changed from 20% to pull the text up */
   text-align: center;
 }
+
 .text-center {
   text-align: center;
 }
+
 .card-img-top {
   width: 100px;
   height: auto;
   border-radius: 50%;
   padding-top: 10px;
 }
+
 .card {
   background: #fff;
   box-shadow: 0 8px 15px -7px #c9dff0;
@@ -50,19 +58,19 @@ body {
   width: 200px;
   height: 350px;
 }
+
 a {
   text-decoration: none;
   color: #0084ff;
 }
+
 .card-text {
   height: 175.6px;
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
 }
-.text-center {
-  text-align: center;
-}
+
 #footer {
   background-color: #1a1a1a;
   height: 300px;
@@ -70,6 +78,7 @@ a {
   padding-bottom: 0px;
   box-sizing: border-box;
 }
+
 #gs {
   background-color: #4CAF50;
   border: none;
@@ -80,4 +89,5 @@ a {
   display: inline-block;
   font-size: 16px;
   border-radius: 20px;
+  cursor: pointer;
 }
