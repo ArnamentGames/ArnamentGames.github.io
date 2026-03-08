@@ -15,8 +15,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
-<!-- 
+  <body><!-- 
   ScoolBase Advertisement Card
   Copy everything below to embed on any website.
   Self-contained with CSS isolation.
@@ -187,6 +186,20 @@
         /* Hide video when unloaded so black background shows */
         #scoolbase-ad-wrapper .scoolbase-ad-player.vp-unloaded video {
             visibility: hidden;
+        }
+        
+        /* Fullscreen: fill screen and contain (letterbox) so nothing is cropped */
+        #scoolbase-ad-wrapper .scoolbase-ad-player:fullscreen,
+        #scoolbase-ad-wrapper .scoolbase-ad-player:-webkit-full-screen {
+            width: 100vw;
+            height: 100vh;
+            aspect-ratio: unset;
+            background: #000;
+        }
+        
+        #scoolbase-ad-wrapper .scoolbase-ad-player:fullscreen video,
+        #scoolbase-ad-wrapper .scoolbase-ad-player:-webkit-full-screen video {
+            object-fit: contain;
         }
         
         /* Button hover states */
