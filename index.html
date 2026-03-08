@@ -15,7 +15,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body><!-- 
+  <body>
+    <!-- 
   ScoolBase Advertisement Card
   Copy everything below to embed on any website.
   Self-contained with CSS isolation.
@@ -53,7 +54,7 @@
                         </div>
                         <!-- Video Player -->
                         <div class="scoolbase-ad-player vp-unloaded" id="scoolbase-ad-player" style="position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; overflow: hidden;">
-                            <video id="scoolbase-ad-video" preload="none" playsinline style="width: 100%; height: 100%; display: block; object-fit: cover;"
+                            <video id="scoolbase-ad-video" preload="none" playsinline style="width: 100%; height: 100%; display: block;"
                                 src="https://explorumgames.github.io/ThoriumLic/ScoolbaseTrailerVid.mp4">
                             </video>
                             
@@ -153,6 +154,10 @@
             box-sizing: border-box;
         }
         
+        #scoolbase-ad-wrapper .scoolbase-ad-player video {
+            object-fit: cover;
+        }
+        
         /* Animations */
         @keyframes scoolbaseAdFadeIn {
             from { opacity: 0; transform: translateY(25px); }
@@ -199,7 +204,7 @@
         
         #scoolbase-ad-wrapper .scoolbase-ad-player:fullscreen video,
         #scoolbase-ad-wrapper .scoolbase-ad-player:-webkit-full-screen video {
-            object-fit: contain;
+            object-fit: contain !important;
         }
         
         /* Button hover states */
@@ -485,6 +490,7 @@
     });
 })();
 </script>
+
     <h1 id="title">
       arnamentgames.github.io<br />
       <span id="subtitle">...</span><br />
