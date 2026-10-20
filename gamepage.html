@@ -193,6 +193,14 @@
 
     <script src="/js/main.js"></script>
     <script>
+      // ---------------------------------------------------------------------------------------
+      // Games open already expanded (as if the fullscreen button had been pressed).
+      // Flip START_IN_FULLSCREEN to false to go back to the small centered frame — that single
+      // value is the whole change. The header is hidden while expanded, so leaving it means
+      // refreshing the page, exactly as it was before.
+      // ---------------------------------------------------------------------------------------
+      var START_IN_FULLSCREEN = true;
+
       (function () {
         // Read which game to load from the URL (?game=<encoded path>)
         var params = new URLSearchParams(window.location.search);
@@ -220,12 +228,15 @@
 
         function setFullscreen(on) {
           body.classList.toggle("fullscreen", on);
-          // No floating button and no exit key: to leave fullscreen, refresh the page.
         }
 
         btn.addEventListener("click", function () {
           setFullscreen(true);
         });
+
+        if (START_IN_FULLSCREEN && game) {
+          setFullscreen(true);
+        }
       })();
     </script>
     <script>
